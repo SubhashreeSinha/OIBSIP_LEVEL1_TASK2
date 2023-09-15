@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+body{
+    margin: 0vw;
+    padding: 0;
+    border: 0;
+    background: url("bg3.png");
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 1vw;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+header h1{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 4px;
+    margin: 0;
+    color: rgb(49, 14, 22);
+}
+
+ul{
+    display: flex;
+    font-family: 'Questrial', sans-serif;
+}
+li{
+    list-style: none;
+    margin-left: 2vw;
+}
+.mypic img{
+    height: 100vh;
+    width: 50vw;
+}
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: url("bg1.png");
+    background-size: contain;
+    background-repeat: cover;
+}
+.intro{
+    margin-top: 15vh;
+    color: brown;
+    padding: 2vw;
+    
+}
+.intro h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 6vh;
+    margin-bottom: 0;
+    
+}
+.intro h1{
+    font-size: 8vh;
+    font-family: 'Rowdies', cursive;
+    color: rgb(209, 30, 54);
+    margin-top: 0;
+}
+
+.intro p{
+    color: rgb(42, 25, 25);
+    font-family: 'Questrial', sans-serif;
+}
+.second{
+    display: flex;
+    height: 100vh;
+    background: url("bgg2.png");
+    background-size: contain;
+    background-repeat: cover;
+    
+    
+}
+.mypic2 img{
+    height: 95vh;
+    width: 40vw;
+    
+}
+.about p{
+    width: 30vw;
+
+}
+.about{
+    font-family: 'Russo One', sans-serif;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    color: brown;
+}
+.about p{
+    font-family: 'Questrial', sans-serif;
+    color: rgb(31, 24, 24);
+}
+.third{
+    background: url("bg3.png");
+    background-size: cover;
+    background-repeat: cover;
+}
+.cardcontainer
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    position: relative;
+    width: 20vw;
+    height: 60vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 25px;
+    padding: 2vw;
+    background-color: rgb(244, 220, 200);
+
+}
+.card img{
+    height: 30%;
+    position: absolute;
+    left: 7vw;
+    
+
+}
+.card h2
+{
+    position: absolute;
+    top: 40%;
+    left: 4vw;
+    font-family: 'Rowdies', cursive;
+
+}
+.card p{
+    top: 60%;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+
+}
+.third{
+    height: 100vh;
+    margin-top: 0;
+    
+}
+.card button{
+    position: absolute;
+    top: 85%;
+    left: 7vw;
+    
+}
+.third h1{
+    text-align: center;
+    margin-bottom: 7vh;
+}
+.fourth{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("bg3.png");
+
+
+    
+}
+.form{
+    background-color: rgb(244, 220, 200);
+    width: 50vw;
+    height: 50vh;
+    padding: 2vw;
+    border-radius: 20px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+
+}
+
+.inputs input{
+    height: 6vh;
+    margin-left: 5vw;
+    width: 15vw;
+   
+}
+.inputs{
+    justify-content: space-around;
+    width: 100%;
+    
+}
+form{
+    position: relative;
+    height: 40vh;
+}
+textarea{
+    position: absolute;
+    top: 20vh;
+}
+.contact{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    font-family: 'Russo One', sans-serif;
+
+}
+.contact p{
+    font-family: 'Questrial', sans-serif;  
+}
+
+.button-77 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-77 {
+    padding: 19px 32px;
+  }
+}
+
+.button-77:before,
+.button-77:after {
+  border-radius: 80px;
+}
+
+.button-77:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-77:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+
+.button-45 {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.button-45:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
